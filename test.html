@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test_js</title>
+</head>
+<body>
+
+	<script>
+
+// Тестовое задание: 
+// исходный масив var arr = ["Я", "люблю", "JavaScript"]; 
+// Нужно посчитать длину каждого слова в исходном массиве, 
+// результат [1, 5, 10]
+
+// Решение:
+
+	// let new_arr = [];
+	// var arr = ["Я", "люблю", "JavaScript"];
+	// 	for (var i = 0; i < arr.length; i++) {
+	// 		new_arr[i] = arr[i].length;
+	// 	} console.log(new_arr);
+		
+// или
+
+	// 	alert(`Результат - длина каждого слова в массиве arr равна ${value}`);
+
+// 2-й вариант, короче:
+
+	// var arr = ["Я", "люблю", "JavaScript"];
+	// 	for (var i = 0; i < arr.length; i++) {
+	// 		console.log(arr[i].length);
+	// 	}
+
+// Оксана, 
+// оценка и дополнительное задание:
+// Хорошо, хотелось бы получить результат в масив чисел
+// И попробуйте решить эту задачу с .map
+// методом вместо цикла
+
+// Решение:
+	// var arr = ["Я", "люблю", "JavaScript"];
+	// var length = arr.map(function(arr) {
+	// return arr.length;
+	// });
+	// console.log(length);
+		
+// Оксана, 
+// ошибка в названии переменной.
+// Отредактированный вариант:
+
+	// var arr = ["Я", "люблю", "JavaScript"];
+	// var new_arr = arr.map(function(arr) {
+	// return arr.length;
+	// });
+	// console.log(new_arr);
+
+// Оксана, 
+// дополнительное задание: Теперь вернитесь к варианту с циклом
+// И сделаете чтобы у вас тоже получился масив
+// к примеру пусть будет new_arr
+// и в него нужно положить вместо слов цифры
+// перебирая циклом .push
+
+// Решение:	
+
+	let new_arr = [];
+	var arr = ["Я", "люблю", "JavaScript"];
+		for (var i = 0; i < arr.length; i++) {
+			new_arr.push(arr[i].length);
+		} console.log(new_arr);
+	
+	</script>
+	
+</body>
+</html>
